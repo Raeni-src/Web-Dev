@@ -1,0 +1,38 @@
+/*the syntax below selects all text and gives it the color chosen
+or in this example below give its a background color behind everything
+*{
+    background-color: ;
+}
+*/
+body{
+    background-color: #f1faee;
+}
+button{
+    font-size: 30px;
+    background-color: #a8dadc ;
+}
+h1,h2{
+    color: #1d3557;
+}
+/*Id selector*/
+#signup{
+    background-color: #023047;
+    color: #d5bdaf;
+}
+span{
+    color: #457b9d;
+}
+/*Class selector*/
+ .tag{
+    background-color: #9e2a2b;
+    color: #8e9aaf;
+    font-size: 16px;
+}
+/*descendant selector
+ a{
+    color:#457b9d;
+}*/
+/*descendant selector + class selector*/
+.post a{
+    color: #8e9aaf;
+}
