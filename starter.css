@@ -36,3 +36,33 @@ span{
 .post a{
     color: #8e9aaf;
 }
+/*Adjacent selector*/
+h2 + button {
+    font-size: 15px ;
+    background-color: #8e9aaf;
+}
+/*direct child selector*/
+footer > a {
+    color: #90a955;
+}
+/*Attribute selector*/
+input [type="password"]{
+    color: #b08968;
+}
+
+section[class="post"]{
+    background-color: aliceblue;
+}
+/*section.post{
+another way of doing the above selector
+}*/
+/*Pseudo Classes*/
+button:hover{
+    background-color: #355070;
+    color:#f1faee;
+}
+/*pseudo class + class selector
+.post button:hover{
+    background-color: #457b9d;
+    color:#f1faee;
+}*/
