@@ -1,0 +1,19 @@
+/*certain properties can be inherited,but others cant be*/
+body{
+    color:teal;
+}
+h1{
+    color:blue;
+}
+section{
+    color:rgb(8, 86, 86)
+}
+form{
+    color: rgb(103, 151, 31);
+}
+/*In this case,the button inherits the nearest color,which is the
+form color,if we take out the form color,it inherits the section
+color and hence others*/
+button{
+    color: inherit;
+}
