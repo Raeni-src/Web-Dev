@@ -5,11 +5,11 @@ or in this example below give its a background color behind everything
 }
 */
 body{
-    background-color: #f1faee;
+    background-color: #549690;
 }
 button{
     font-size: 30px;
-    background-color: #a8dadc ;
+    background-color: #7ec8ca ;
 }
 h1,h2{
     color: #1d3557;
@@ -34,7 +34,7 @@ span{
 }*/
 /*descendant selector + class selector*/
 .post a{
-    color: #8e9aaf;
+    color: #525d6f;
 }
 /*Adjacent selector*/
 h2 + button {
@@ -51,7 +51,7 @@ input [type="password"]{
 }
 
 section[class="post"]{
-    background-color: aliceblue;
+    background-color: rgb(102, 152, 138);
 }
 /*section.post{
 another way of doing the above selector
@@ -61,8 +61,21 @@ button:hover{
     background-color: #355070;
     color:#f1faee;
 }
-/*pseudo class + class selector
+/* hover pseudo class + class selector(post)*/
 .post button:hover{
     background-color: #457b9d;
     color:#f1faee;
+}
+/*the active pseudo class*/
+.post button:active{
+    background-color: #02c39a;
+}
+/*nth-of-type pseudo class
+.post:nth-of-type(2){
+    color: rgb(66, 112, 99));
 }*/
+/*important keyword
+button{
+    background-color: palevioletred !important ;
+}*/
+
