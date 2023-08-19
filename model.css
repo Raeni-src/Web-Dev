@@ -1,0 +1,24 @@
+/*width attribute*/
+div{
+    width: 200px;
+/*height attribute*/
+    height: 200px;
+}
+h1{
+    background-color: pink;
+    width: 100px;
+}
+#one {
+    background-color: #ff85a1;
+/*border properties*/
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+   /* box-sizing: border-box;*/
+}
+#two {
+    background-color: #e56b6f;
+}
+#three {
+    background-color: #b56576;
+}
