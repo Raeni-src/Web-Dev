@@ -7,6 +7,8 @@ div{
 h1{
     background-color: pink;
     width: 100px;
+    padding-left:100px ;
+    padding-top: 10px;
 }
 #one {
     background-color: #ff85a1;
