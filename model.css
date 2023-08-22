@@ -1,15 +1,23 @@
+/*eliminating margin form the body
+body{
+    margin: 0px;
+}
+*/
+
 /*width attribute*/
 div{
     width: 200px;
 /*height attribute*/
     height: 200px;
 }
+
 h1{
     background-color: pink;
     width: 100px;
     padding-left:100px ;
     padding-top: 10px;
 }
+
 #one {
     background-color: #ff85a1;
 /*border properties*/
@@ -18,9 +26,18 @@ h1{
     border-style: solid;
    /* box-sizing: border-box;*/
 }
+
 #two {
     background-color: #e56b6f;
 }
 #three {
     background-color: #b56576;
 }
+
+/*padding shorthand properties*/
+button{
+    margin: 10px;
+    padding: 10px; /*applies to all four sides*/
+    /*padding: 0px 20px; /*applies vertically & horizontally*/
+    /*padding: 10px 20px 30px 40px; /*applies top,right,bottom,left*/
+}   
