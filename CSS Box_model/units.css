@@ -1,0 +1,42 @@
+section{
+    background-color: #023047;
+    width: 500px;
+    height: 500px;
+}
+
+div{
+    background-color: #457b9d;
+    width: 70%;
+    height: 20%;
+}
+
+h1{
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+/*
+    line-height: 80px;   nothing will change if this is used
+    instead of percentage
+*/
+}
+/*The em in fontsize is the font size of the parent in the main file
+in this case article is the parent */
+h2{
+    font-size: 2em;
+/*em in margin refers to the font size of the element*/
+    margin-left: 1em;
+}
+article{
+    font-size: 20px;
+    /*this will mean that our h2 will have a font size of 60
+    i.e 2em*30px=60px */
+}
+button{
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: #a8dadc;
+}
+ul{
+    font-size: 1.5em;
+}
