@@ -1,35 +1,32 @@
-section{
-    background-color: #023047;
-    width: 500px;
-    height: 500px;
+/*Revised Model*/
+html {
+        font-size: 30px;
 }
-
-div{
-    background-color: #457b9d;
-    width: 70%;
-    height: 20%;
+#percentages {
+        background-color: #1d3557;
+        width: 400px;
+        height: 400px;
 }
-
-h1{
-    font-size: 40px;
-    border: 1px solid black;
-    line-height: 200%;
-/*
-    line-height: 80px;   nothing will change if this is used
-    instead of percentage
-*/
+#percentages div {
+        background-color:#457b9d;
+        width: 70%;
+        height: 20%;
+}    
+#ems h2 {
+        font-size: 2em;
+        margin-left: 1em;
 }
-/*The em in fontsize is the font size of the parent in the main file
-in this case article is the parent */
-h2{
-    font-size: 2em;
-/*em in margin refers to the font size of the element*/
-    margin-left: 1em;
+#ems h3 {
+        font-size: 1.5em;
 }
-article{
-    font-size: 20px;
-    /*this will mean that our h2 will have a font size of 60
-    i.e 2em*30px=60px */
+#ems p {
+        font-size: 1em;
+}
+#ems {
+        font-size: 15px;
+} 
+#ems ul {
+        font-size: 1.5em;
 }
 button{
     font-size: 1em;
@@ -37,6 +34,14 @@ button{
     border-radius: 0.5em;
     background-color: #a8dadc;
 }
-ul{
-    font-size: 1.5em;
+
+#rem h2{
+    font-size: 3rem;
+}
+
+#rem ul{
+    font-size: 1.5rem;
+}
+#rem button{
+    font-size: 1.5rem;
 }
