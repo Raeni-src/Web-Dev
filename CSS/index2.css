@@ -1,0 +1,14 @@
+section{
+    width: 80%;
+    height: 800px;
+    background-image:url("https://images.unsplash.com/photo-1691081612638-24fa0b92219a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=1000&q=60");
+    margin: 0 auto;
+    background-size: cover;
+    background-position: bottom;
+}
+
+h1{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
