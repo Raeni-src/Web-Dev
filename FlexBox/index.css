@@ -1,0 +1,31 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    text-align: center;
+}
+#container{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #556f7d;
+
+/*activating flexbox*/
+    display: flex;
+
+/*flex-direction property*/
+    flex-direction: row;
+
+/*justify-content property*/
+    justify-content: flex-start;
+
+/*flex-wrap*/
+    flex-wrap: wrap
+    
+}
+#container div{
+    width: 100px;
+    height: 100px;
+    
+}
