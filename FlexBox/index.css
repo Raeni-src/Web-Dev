@@ -20,16 +20,26 @@ h1{
 /*justify-content property*/
     justify-content: center;
 
-/*flex-wrap
-    flex-wrap: wrap
-*/  
+/*flex-wrap*/
+    flex-wrap: wrap;
 
-    align-items: baseline;
+/*align-items*/
+    align-items: flex-start;
+
+/*align-content works only when flex wrap is turned on
+else,it effects no change
+    align-content: center;
+*/
+
 }
+
 #container div{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     text-align: center;
-   font-size: 4em;
     
+}
+
+div:nth-of-type(3){
+    align-self: center;
 }
