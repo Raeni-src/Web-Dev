@@ -1,0 +1,42 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 6em;
+    text-align: center;
+}
+nav{
+    font-size: 1.5em;
+}
+
+ul,li{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: #370617;
+}
+@media(min-width: 500px){
+    h1{
+        color: #6a040f;
+    }
+}
+@media(min-width: 1000px){
+    h1{
+        color: #9d0208;
+    }
+}
+@media(min-width: 1500px){
+    h1{
+        color: #d00000;
+    }
+}
+
+@media (orientation: landscape) {
+    body{
+        background-color: #0f4c5c;
+    }
+    
+}
